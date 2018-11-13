@@ -1,6 +1,7 @@
 {
     "name": "im050/rpc-client",
     "description": "a rpc client for swoft rpc server",
+    "keywords": ["rpc", "client", "swoole", "swoft", "sowft-rpc"],
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
