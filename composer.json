@@ -2,15 +2,19 @@
     "name": "im050/rpc-client",
     "description": "a rpc client for swoft rpc server",
     "keywords": ["rpc", "client", "swoole", "swoft", "sowft-rpc"],
+    "homepage": "https://github.com/im050/rpc-client",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "memory",
-            "email": "service@im050.com"
+            "email": "service@im050.com",
+            "homepage": "https://im050.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.0.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "^7.4"
     },
