@@ -59,7 +59,7 @@ class ClientBuilder
     public function get($name, $version = null)
     {
         if (isset(self::$services[$name]) && self::$services[$name] instanceof Services) {
-            return self::$services;
+            return self::$services[$name];
         }
         if (class_exists($name)) {
             $services = new $name($this->client);
